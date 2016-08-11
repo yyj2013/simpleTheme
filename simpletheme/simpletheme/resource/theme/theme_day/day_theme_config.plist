@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>textSize</key>
+	<dict/>
+	<key>textColor</key>
+	<dict>
+		<key>newsTopChannelBackColor</key>
+		<dict>
+			<key>color</key>
+			<string>0xd43d3d</string>
+			<key>desc</key>
+			<string>分割线通用颜色</string>
+		</dict>
+		<key>boderNormalColor</key>
+		<dict>
+			<key>color</key>
+			<string>0xe8e8e8</string>
+			<key>desc</key>
+			<string>分割线通用颜色</string>
+		</dict>
+		<key>cellNormalTextColor</key>
+		<dict>
+			<key>color</key>
+			<string>0x222222</string>
+			<key>desc</key>
+			<string>用户中心三个tabcell字体颜色</string>
+		</dict>
+		<key>cellNormalBackColor</key>
+		<dict>
+			<key>color</key>
+			<string>0xffffff</string>
+			<key>desc</key>
+			<string>cell通用背景色</string>
+		</dict>
+		<key>userHeaderBackColor</key>
+		<dict>
+			<key>color</key>
+			<string>0x9d9d9c</string>
+			<key>desc</key>
+			<string>个人页头部背景色</string>
+		</dict>
+		<key>normalPageBackColor</key>
+		<dict>
+			<key>color</key>
+			<string>0xf4f5f6</string>
+			<key>desc</key>
+			<string>页面默认背景色</string>
+		</dict>
+	</dict>
+	<key>buttonImage</key>
+	<dict/>
+</dict>
+</plist>

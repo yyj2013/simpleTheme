@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC0A59971D5CB7AE00A28C4A /* themeFramework.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC0A59961D5CB7AE00A28C4A /* themeFramework.h */; };
+		BC0A59991D5CB7AE00A28C4A /* themeFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0A59981D5CB7AE00A28C4A /* themeFramework.m */; };
+		BC0A59A91D5CB84C00A28C4A /* GNDayNightManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0A59A61D5CB84C00A28C4A /* GNDayNightManager.m */; };
+		BC0A59AA1D5CB84C00A28C4A /* UIView+DayNight.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0A59A81D5CB84C00A28C4A /* UIView+DayNight.m */; };
+		BC0A59AB1D5CB85C00A28C4A /* UIView+DayNight.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC0A59A71D5CB84C00A28C4A /* UIView+DayNight.h */; };
+		BC0A59AC1D5CB86900A28C4A /* GNDayNightManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC0A59A51D5CB84C00A28C4A /* GNDayNightManager.h */; };
+		BC0A59C21D5CBE0B00A28C4A /* ThemeFrameworkInterface.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC0A59C11D5CBDD900A28C4A /* ThemeFrameworkInterface.h */; };
+		BC0A59C91D5CC63B00A28C4A /* GNPlistHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0A59C81D5CC63B00A28C4A /* GNPlistHandle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BC0A59911D5CB7AE00A28C4A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				BC0A59C21D5CBE0B00A28C4A /* ThemeFrameworkInterface.h in CopyFiles */,
+				BC0A59AC1D5CB86900A28C4A /* GNDayNightManager.h in CopyFiles */,
+				BC0A59AB1D5CB85C00A28C4A /* UIView+DayNight.h in CopyFiles */,
+				BC0A59971D5CB7AE00A28C4A /* themeFramework.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BC0A59931D5CB7AE00A28C4A /* libthemeFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libthemeFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC0A59961D5CB7AE00A28C4A /* themeFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = themeFramework.h; sourceTree = "<group>"; };
+		BC0A59981D5CB7AE00A28C4A /* themeFramework.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = themeFramework.m; sourceTree = "<group>"; };
+		BC0A59A51D5CB84C00A28C4A /* GNDayNightManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNDayNightManager.h; sourceTree = "<group>"; };
+		BC0A59A61D5CB84C00A28C4A /* GNDayNightManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNDayNightManager.m; sourceTree = "<group>"; };
+		BC0A59A71D5CB84C00A28C4A /* UIView+DayNight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DayNight.h"; sourceTree = "<group>"; };
+		BC0A59A81D5CB84C00A28C4A /* UIView+DayNight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DayNight.m"; sourceTree = "<group>"; };
+		BC0A59AF1D5CBAAD00A28C4A /* themeFramework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "themeFramework-Prefix.pch"; sourceTree = "<group>"; };
+		BC0A59C11D5CBDD900A28C4A /* ThemeFrameworkInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThemeFrameworkInterface.h; sourceTree = "<group>"; };
+		BC0A59C71D5CC63B00A28C4A /* GNPlistHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNPlistHandle.h; sourceTree = "<group>"; };
+		BC0A59C81D5CC63B00A28C4A /* GNPlistHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNPlistHandle.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC0A59901D5CB7AE00A28C4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC0A598A1D5CB7AE00A28C4A = {
+			isa = PBXGroup;
+			children = (
+				BC0A59951D5CB7AE00A28C4A /* themeFramework */,
+				BC0A59941D5CB7AE00A28C4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC0A59941D5CB7AE00A28C4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC0A59931D5CB7AE00A28C4A /* libthemeFramework.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC0A59951D5CB7AE00A28C4A /* themeFramework */ = {
+			isa = PBXGroup;
+			children = (
+				BC0A59C71D5CC63B00A28C4A /* GNPlistHandle.h */,
+				BC0A59C81D5CC63B00A28C4A /* GNPlistHandle.m */,
+				BC0A59A51D5CB84C00A28C4A /* GNDayNightManager.h */,
+				BC0A59A61D5CB84C00A28C4A /* GNDayNightManager.m */,
+				BC0A59A71D5CB84C00A28C4A /* UIView+DayNight.h */,
+				BC0A59A81D5CB84C00A28C4A /* UIView+DayNight.m */,
+				BC0A59961D5CB7AE00A28C4A /* themeFramework.h */,
+				BC0A59981D5CB7AE00A28C4A /* themeFramework.m */,
+				BC0A59AF1D5CBAAD00A28C4A /* themeFramework-Prefix.pch */,
+				BC0A59C11D5CBDD900A28C4A /* ThemeFrameworkInterface.h */,
+			);
+			path = themeFramework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC0A59921D5CB7AE00A28C4A /* themeFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC0A599C1D5CB7AE00A28C4A /* Build configuration list for PBXNativeTarget "themeFramework" */;
+			buildPhases = (
+				BC0A598F1D5CB7AE00A28C4A /* Sources */,
+				BC0A59901D5CB7AE00A28C4A /* Frameworks */,
+				BC0A59911D5CB7AE00A28C4A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = themeFramework;
+			productName = themeFramework;
+			productReference = BC0A59931D5CB7AE00A28C4A /* libthemeFramework.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC0A598B1D5CB7AE00A28C4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = imudges;
+				TargetAttributes = {
+					BC0A59921D5CB7AE00A28C4A = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = E4LN3NEW48;
+					};
+				};
+			};
+			buildConfigurationList = BC0A598E1D5CB7AE00A28C4A /* Build configuration list for PBXProject "themeFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BC0A598A1D5CB7AE00A28C4A;
+			productRefGroup = BC0A59941D5CB7AE00A28C4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC0A59921D5CB7AE00A28C4A /* themeFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC0A598F1D5CB7AE00A28C4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0A59A91D5CB84C00A28C4A /* GNDayNightManager.m in Sources */,
+				BC0A59AA1D5CB84C00A28C4A /* UIView+DayNight.m in Sources */,
+				BC0A59991D5CB7AE00A28C4A /* themeFramework.m in Sources */,
+				BC0A59C91D5CC63B00A28C4A /* GNPlistHandle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BC0A599A1D5CB7AE00A28C4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC0A599B1D5CB7AE00A28C4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC0A599D1D5CB7AE00A28C4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "themeFramework/themeFramework-Prefix.pch";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BC0A599E1D5CB7AE00A28C4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "themeFramework/themeFramework-Prefix.pch";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC0A598E1D5CB7AE00A28C4A /* Build configuration list for PBXProject "themeFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0A599A1D5CB7AE00A28C4A /* Debug */,
+				BC0A599B1D5CB7AE00A28C4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC0A599C1D5CB7AE00A28C4A /* Build configuration list for PBXNativeTarget "themeFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0A599D1D5CB7AE00A28C4A /* Debug */,
+				BC0A599E1D5CB7AE00A28C4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC0A598B1D5CB7AE00A28C4A /* Project object */;
+}

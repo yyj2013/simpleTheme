@@ -15,6 +15,8 @@
 		BC0A595A1D5CB48100A28C4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0A59581D5CB48100A28C4A /* LaunchScreen.storyboard */; };
 		BC0A59651D5CB48100A28C4A /* simplethemeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0A59641D5CB48100A28C4A /* simplethemeTests.m */; };
 		BC0A59701D5CB48100A28C4A /* simplethemeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0A596F1D5CB48100A28C4A /* simplethemeUITests.m */; };
+		BC0A59C31D5CBEDA00A28C4A /* libthemeFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0A59A41D5CB7E400A28C4A /* libthemeFramework.a */; };
+		BC0A59C61D5CC57500A28C4A /* theme in Resources */ = {isa = PBXBuildFile; fileRef = BC0A59C51D5CC57500A28C4A /* theme */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +33,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = BC0A59461D5CB48100A28C4A;
 			remoteInfo = simpletheme;
+		};
+		BC0A59A31D5CB7E400A28C4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC0A599F1D5CB7E400A28C4A /* themeFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BC0A59931D5CB7AE00A28C4A;
+			remoteInfo = themeFramework;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -51,6 +60,8 @@
 		BC0A596B1D5CB48100A28C4A /* simplethemeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simplethemeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC0A596F1D5CB48100A28C4A /* simplethemeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = simplethemeUITests.m; sourceTree = "<group>"; };
 		BC0A59711D5CB48100A28C4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC0A599F1D5CB7E400A28C4A /* themeFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = themeFramework.xcodeproj; path = themeFramework/themeFramework.xcodeproj; sourceTree = "<group>"; };
+		BC0A59C51D5CC57500A28C4A /* theme */ = {isa = PBXFileReference; lastKnownFileType = folder; path = theme; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC0A59C31D5CBEDA00A28C4A /* libthemeFramework.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +93,7 @@
 		BC0A593E1D5CB48100A28C4A = {
 			isa = PBXGroup;
 			children = (
+				BC0A599F1D5CB7E400A28C4A /* themeFramework.xcodeproj */,
 				BC0A59491D5CB48100A28C4A /* simpletheme */,
 				BC0A59631D5CB48100A28C4A /* simplethemeTests */,
 				BC0A596E1D5CB48100A28C4A /* simplethemeUITests */,
@@ -101,6 +114,7 @@
 		BC0A59491D5CB48100A28C4A /* simpletheme */ = {
 			isa = PBXGroup;
 			children = (
+				BC0A59C41D5CC56000A28C4A /* resource */,
 				BC0A594D1D5CB48100A28C4A /* AppDelegate.h */,
 				BC0A594E1D5CB48100A28C4A /* AppDelegate.m */,
 				BC0A59501D5CB48100A28C4A /* ViewController.h */,
@@ -138,6 +152,22 @@
 				BC0A59711D5CB48100A28C4A /* Info.plist */,
 			);
 			path = simplethemeUITests;
+			sourceTree = "<group>";
+		};
+		BC0A59A01D5CB7E400A28C4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC0A59A41D5CB7E400A28C4A /* libthemeFramework.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC0A59C41D5CC56000A28C4A /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				BC0A59C51D5CC57500A28C4A /* theme */,
+			);
+			path = resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +262,12 @@
 			mainGroup = BC0A593E1D5CB48100A28C4A;
 			productRefGroup = BC0A59481D5CB48100A28C4A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = BC0A59A01D5CB7E400A28C4A /* Products */;
+					ProjectRef = BC0A599F1D5CB7E400A28C4A /* themeFramework.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				BC0A59461D5CB48100A28C4A /* simpletheme */,
@@ -241,11 +277,22 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		BC0A59A41D5CB7E400A28C4A /* libthemeFramework.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libthemeFramework.a;
+			remoteRef = BC0A59A31D5CB7E400A28C4A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		BC0A59451D5CB48100A28C4A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC0A59C61D5CC57500A28C4A /* theme in Resources */,
 				BC0A595A1D5CB48100A28C4A /* LaunchScreen.storyboard in Resources */,
 				BC0A59571D5CB48100A28C4A /* Assets.xcassets in Resources */,
 				BC0A59551D5CB48100A28C4A /* Main.storyboard in Resources */,
@@ -367,6 +414,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ./themeFramework/themeFramework;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -406,6 +454,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ./themeFramework/themeFramework;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
@@ -420,6 +469,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = simpletheme/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = imudges.com.simpletheme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -431,6 +484,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = simpletheme/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = imudges.com.simpletheme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -501,6 +558,7 @@
 				BC0A59761D5CB48100A28C4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC0A59771D5CB48100A28C4A /* Build configuration list for PBXNativeTarget "simplethemeTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +567,7 @@
 				BC0A59791D5CB48100A28C4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC0A597A1D5CB48100A28C4A /* Build configuration list for PBXNativeTarget "simplethemeUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +576,7 @@
 				BC0A597C1D5CB48100A28C4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
