@@ -95,6 +95,29 @@ static GNDayNightManager *_dayNightManager = nil;
     return colorInt;
 }
 
+- (UIImage *)getImageWithIconID:(NSString *)iconID {
+    NSString *path = nil;
+    NSString *suffix = nil;
+    if ([UIScreen mainScreen].scale < 3) {
+        suffix = @"@2x.png";
+    }else {
+        suffix = @"@3x.png";
+    }
+    if ([iconID hasSuffix:@".png"] || [iconID hasSuffix:@".jpg"]) {
+        path = iconID;
+    }
+    else {
+        path = [NSString stringWithFormat:@"%@%@",iconID,suffix];
+    }
+    
+    NSString *imgPath = [self.themePath stringByAppendingPathComponent:path];
+    UIImage *image = [UIImage imageWithContentsOfFile:imgPath];
+    if (!image) {
+        image = [UIImage imageNamed:imgPath];
+    }
+    return image;
+}
+
 #pragma mark - private
 /**
  *  根据当前主题状态，加载不同主题配置文件

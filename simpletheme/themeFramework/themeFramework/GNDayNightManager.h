@@ -57,11 +57,10 @@ typedef NS_ENUM(NSUInteger, GNButtonImgType) {
  *  通过iconID及状态(GNButtonImgType)获取图片name
  *
  *  @param iconID iconID
- *  @param type   所需图片状态(GNButtonImgType)
  *
  *  @return 图片name
  */
-- (NSString *)getIconNameWithIcon:(NSString *)iconID type:(GNButtonImgType) type;
+- (UIImage *)getImageWithIconID:(NSString *)iconID;
 
 /**
  *  通过colorID获得当前主题对应的Color(16进制rgb)

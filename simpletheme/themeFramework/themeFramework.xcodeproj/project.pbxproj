@@ -15,6 +15,8 @@
 		BC0A59AC1D5CB86900A28C4A /* GNDayNightManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC0A59A51D5CB84C00A28C4A /* GNDayNightManager.h */; };
 		BC0A59C21D5CBE0B00A28C4A /* ThemeFrameworkInterface.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC0A59C11D5CBDD900A28C4A /* ThemeFrameworkInterface.h */; };
 		BC0A59C91D5CC63B00A28C4A /* GNPlistHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0A59C81D5CC63B00A28C4A /* GNPlistHandle.m */; };
+		BC16E1A71D616F7600B2503F /* UIImageView+DayNight.m in Sources */ = {isa = PBXBuildFile; fileRef = BC16E1A61D616F7600B2503F /* UIImageView+DayNight.m */; };
+		BC16E1A81D6174DC00B2503F /* UIImageView+DayNight.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC16E1A51D616F7600B2503F /* UIImageView+DayNight.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,6 +26,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				BC16E1A81D6174DC00B2503F /* UIImageView+DayNight.h in CopyFiles */,
 				BC0A59C21D5CBE0B00A28C4A /* ThemeFrameworkInterface.h in CopyFiles */,
 				BC0A59AC1D5CB86900A28C4A /* GNDayNightManager.h in CopyFiles */,
 				BC0A59AB1D5CB85C00A28C4A /* UIView+DayNight.h in CopyFiles */,
@@ -45,6 +48,8 @@
 		BC0A59C11D5CBDD900A28C4A /* ThemeFrameworkInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThemeFrameworkInterface.h; sourceTree = "<group>"; };
 		BC0A59C71D5CC63B00A28C4A /* GNPlistHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNPlistHandle.h; sourceTree = "<group>"; };
 		BC0A59C81D5CC63B00A28C4A /* GNPlistHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNPlistHandle.m; sourceTree = "<group>"; };
+		BC16E1A51D616F7600B2503F /* UIImageView+DayNight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+DayNight.h"; sourceTree = "<group>"; };
+		BC16E1A61D616F7600B2503F /* UIImageView+DayNight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+DayNight.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,12 +86,14 @@
 				BC0A59C81D5CC63B00A28C4A /* GNPlistHandle.m */,
 				BC0A59A51D5CB84C00A28C4A /* GNDayNightManager.h */,
 				BC0A59A61D5CB84C00A28C4A /* GNDayNightManager.m */,
-				BC0A59A71D5CB84C00A28C4A /* UIView+DayNight.h */,
-				BC0A59A81D5CB84C00A28C4A /* UIView+DayNight.m */,
 				BC0A59961D5CB7AE00A28C4A /* themeFramework.h */,
 				BC0A59981D5CB7AE00A28C4A /* themeFramework.m */,
-				BC0A59AF1D5CBAAD00A28C4A /* themeFramework-Prefix.pch */,
+				BC0A59A71D5CB84C00A28C4A /* UIView+DayNight.h */,
+				BC0A59A81D5CB84C00A28C4A /* UIView+DayNight.m */,
+				BC16E1A51D616F7600B2503F /* UIImageView+DayNight.h */,
+				BC16E1A61D616F7600B2503F /* UIImageView+DayNight.m */,
 				BC0A59C11D5CBDD900A28C4A /* ThemeFrameworkInterface.h */,
+				BC0A59AF1D5CBAAD00A28C4A /* themeFramework-Prefix.pch */,
 			);
 			path = themeFramework;
 			sourceTree = "<group>";
@@ -152,6 +159,7 @@
 				BC0A59AA1D5CB84C00A28C4A /* UIView+DayNight.m in Sources */,
 				BC0A59991D5CB7AE00A28C4A /* themeFramework.m in Sources */,
 				BC0A59C91D5CC63B00A28C4A /* GNPlistHandle.m in Sources */,
+				BC16E1A71D616F7600B2503F /* UIImageView+DayNight.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -61,7 +61,7 @@
 		BC0A596F1D5CB48100A28C4A /* simplethemeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = simplethemeUITests.m; sourceTree = "<group>"; };
 		BC0A59711D5CB48100A28C4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC0A599F1D5CB7E400A28C4A /* themeFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = themeFramework.xcodeproj; path = themeFramework/themeFramework.xcodeproj; sourceTree = "<group>"; };
-		BC0A59C51D5CC57500A28C4A /* theme */ = {isa = PBXFileReference; lastKnownFileType = folder; path = theme; sourceTree = "<group>"; };
+		BC0A59C51D5CC57500A28C4A /* theme */ = {isa = PBXFileReference; lastKnownFileType = folder; name = theme; path = resource/theme; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +121,7 @@
 				BC0A59511D5CB48100A28C4A /* ViewController.m */,
 				BC0A59531D5CB48100A28C4A /* Main.storyboard */,
 				BC0A59561D5CB48100A28C4A /* Assets.xcassets */,
+				BC0A59C51D5CC57500A28C4A /* theme */,
 				BC0A59581D5CB48100A28C4A /* LaunchScreen.storyboard */,
 				BC0A595B1D5CB48100A28C4A /* Info.plist */,
 				BC0A594A1D5CB48100A28C4A /* Supporting Files */,
@@ -165,7 +166,6 @@
 		BC0A59C41D5CC56000A28C4A /* resource */ = {
 			isa = PBXGroup;
 			children = (
-				BC0A59C51D5CC57500A28C4A /* theme */,
 			);
 			path = resource;
 			sourceTree = "<group>";

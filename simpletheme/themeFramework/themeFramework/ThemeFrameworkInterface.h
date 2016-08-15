@@ -9,6 +9,8 @@
 #ifndef ThemeFrameworkInterface_h
 #define ThemeFrameworkInterface_h
 
+#import "GNDayNightManager.h"
 #import "UIView+DayNight.h"
+#import "UIImageView+DayNight.m"
 
 #endif /* ThemeFrameworkInterface_h */
