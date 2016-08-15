@@ -2,7 +2,7 @@
 //  UIView+DayNight.m
 //  GameNews
 //
-//  Created by baidu on 16/5/27.
+//  Created by csyyj on 16/5/27.
 //  Copyright © 2016年 youxibar. All rights reserved.
 //
 

@@ -2,7 +2,7 @@
 //  GNDayNightManager.h
 //  GameNews
 //
-//  Created by baidu on 16/5/25.
+//  Created by csyyj on 16/5/25.
 //  Copyright © 2016年 youxibar. All rights reserved.
 //
 
